@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <!--Romanesco 96px-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Romanesco&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <ul>
+                <li><a href="#">PROMOCIONES</a></li>
+                <li><a href="#">FOTOS</a></li>
+                <li><a href="#">SERVICIOS</a></li>
+                <li><a href="#">MAPA</a></li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+
+        </nav>
+
+        <section class="menu-info">
+            <div>
+                <img src="images/user.png" alt="Foto del usuario" id="foto-perfil">
+                <p><a href="#">Mi Cuenta</a></p>
+            </div>
+            <div>
+                <p>ES</p>
+                <img src="images/flag.png" alt="Bandera del Idioma" id="bandera">
+                <img src="images/arrow.png" id="flecha">
+            </div>
+
+
+        </section>
+
+
+    </header>
+    <main>
+        <div id="portada-spa">
+            <div class="nombre-spa">
+                <h1>SPA - Todos</h1>
+                <h2>Regálate un momento de paz y consiente a tu piel en el mejor lugar</h2>
+            </div>
+        </div>
+
+        <form id="reserva-codigo">
+            <div class="reserva-ingreso">
+                <label for="reserva">RESERVA TU CITA:   </label>
+                <input type="text" id="reserva">
+            </div>
+            <div class="reserva-ingreso">
+                <label for="codigo">CÓDIGO PROMOCIONAL:   </label>
+                <input type="text" id="codigo" placeholder="CODIGO">
+            </div>  
+        </form>
+
+        <section id="tipos-servicios">
+            <article class="servicios">
+                <h2>Masaje de pies</h2>
+                <img src="images/pies.png" class="servicio" alt="Este es el servicio de pies">
+                <div>
+                    <p>Esta es una descripción de la opción en cuestión...</p>
+                    <div class="precio-servicio">
+                        <h3>$65</h3>
+                        <button>RESERVAR</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="servicios">
+                <h2>Masaje relajante</h2>
+                <img src="images/relajante.png" class="servicio" alt="Este es el servicio de masaje facial">
+                <div>
+                    <p>Esta es una descripción de la opción en cuestión...</p>
+                    <div class="precio-servicio">
+                        <h3>$60</h3>
+                        <button>RESERVAR</button>                    </div>
+                    </div>
+            </article>
+
+            <article class="servicios">
+                <h2>Masaje con bambu</h2>
+                <img src="images/bambu.png" class="servicio" alt="Este es el servicio de masaje con bambu">
+                <div>
+                    <p>Esta es una descripción de la opción en cuestión...</p>
+                    <div class="precio-servicio">
+                        <h3>$58</h3>
+                        <button>RESERVAR</button>                    </div>
+                    </div>
+            </article>
+        </section>
+
+        <section id="membresias">
+            <div id="titulo-mem">
+                <h1>Haste socio y prueba nuestros beneficios</h1>
+            </div>
+            <div id="tipos-membresia">
+                <article class="membresia">
+                    <div class="borde-membresia">
+                        <img src="images/gold.png" alt="Este es el plan Gold">
+                    </div>
+    
+                    <div>
+                        <h2>GOLD</h2>
+                        <button>VER CONDICIONES</button>
+                        <ul>
+                            <li><a href="#">Gimnasio</a></li>
+                            <li><a href="#">Piscina</a></li>
+                            <li><a href="#">Todos los tratamientos</a></li>
+                        </ul>
+                    </div>
+                </article>
+    
+                <article class="membresia">
+                    <div class="borde-membresia">
+                        <img src="images/premium.png" alt="Este es el plan Premium">
+                    </div>
+    
+                    <div>
+                        <h2>PREMIUM</h2>
+                        <button>VER CONDICIONES</button>
+                        <ul>
+                            <li><a href="#">Gimnasio</a></li>
+                            <li><a href="#">Todos los tratamientos</a></li>
+                        </ul>
+                    </div>
+                </article>
+    
+                <article class="membresia">
+                    <div class="borde-membresia">
+                        <img src="images/plate.png" alt="Este es el plan Plate">
+                    </div>
+    
+                    <div>
+                        <h2>PLATE</h2>
+                        <button>VER CONDICIONES</button>
+                        <ul>
+                            <li><a href="#">Tratamientos faciales</a></li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        <section class="footer-spa">
+            <ul>
+                <li><a href="#">POLITICAS DE COOKIES</a></li>
+                <li><a href="#">AVISO LEGAL</a></li>
+                <li><a href="#">PROTECCIÓN DE DATOS</a></li>
+                <li><a href="#">MAPA DEL SITIO</a></li>
+            </ul>
+        </section>
+        <section class="footer-redes">
+            <p>SIGUENOS EN: </p>
+            <img src="images/rs_facebook.png" alt="">
+            <img src="images/rs_twiter.png" alt="">
+            <img src="images/rs_youtube.png" alt="">
+        </section>
+    </footer>
+</body>
+
+</html>

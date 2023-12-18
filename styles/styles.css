@@ -1,0 +1,271 @@
+/*GENERAL*/
+*{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul{
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+button{
+    font-size: 16px;
+    font-weight:bold;
+    color: #fff;
+    background-color: #A3A656;
+    border: none;
+    border-radius: 35px;
+    padding: 14px 30px;
+}
+
+button:hover{
+    background-color: #384001;
+}
+
+
+/*HEADER*/
+
+header{
+    background-color: #A3A656;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-right: 15px;
+
+}
+
+header nav ul li a:hover{
+    color: #FFFF00;
+}
+
+header .menu-info{
+    width: 20%;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .menu-info div{
+    width: 40%;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+#foto-perfil {
+    width: 42px;
+    margin-right: 3%;
+}
+
+
+/*MAIN*/
+#portada-spa {
+    height: 667px;
+    background-image: url(../images/main.png);
+    background-size: cover;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+#portada-spa .nombre-spa {
+    display: flex;
+    flex-direction: column;
+}
+
+#portada-spa .nombre-spa h1 {
+    font-family: 'Romanesco', cursive;
+    font-size: 96px;
+    font-weight: normal;
+}
+
+#portada-spa .nombre-spa h2 {
+    width: 60%;
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight:bold;
+}
+
+#reserva-codigo {
+    height: 100px;
+    background-color: #F2F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+}
+
+#reserva-codigo .reserva-ingreso input{
+    border-radius: 15px;
+    padding: 22px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+
+
+.servicios h2 {
+    font-size: 32px;
+    width: 310px;
+    font-weight:bold;
+    color: #fff;
+    background-color: #A3A656;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    border: none;
+}
+
+.servicios p{
+    width: 350px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.precio-servicio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.servicios h3 {
+    display: inline-block;
+    font-size: 32px;
+    font-weight:bold;
+    margin-left: 4%;
+}
+
+
+#tipos-servicios article{
+    display: inline-block;
+    margin: 100px 67px;
+}
+
+
+
+#membresias{
+    text-align: center;
+    height: 770px;
+    background-color: #F2F6F6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#tipos-membresia{
+    display: flex;
+    justify-content: space-around;
+}
+
+.borde-membresia img{
+    vertical-align: 50%;
+    top: 25%;
+    left: 25%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.borde-membresia {
+    width: 233px;
+    height: 233px;
+    border: 11px solid #384001;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+#membresias article{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#membresias #tipos-membresia .membresia div button{
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+#membresias #tipos-membresia .membresia div ul li{
+    list-style-type: disc;
+}
+
+.membresia ul {
+    text-align: left;
+}
+
+
+
+/*FOOTER*/
+footer{
+    background-color: #384001;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 70px;
+}
+
+footer .footer-spa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer-spa ul li{
+    display: inline-block;
+    margin-right: 15px;
+
+}
+
+footer .footer-spa ul li a{
+    color: #fff;
+}
+
+footer .footer-redes{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .footer-redes img:not(:nth-child(2)){
+    width: 47px;
+    height: 37px;
+}
+footer .footer-redes img:nth-child(2){
+    width: 40px;
+    height: 40px;
+}
+
+footer .footer-redes p{
+    color: #fff;
+}
+
+footer .footer-spa ul li a:hover{
+    color: #FFFF00;
+}
